@@ -191,7 +191,7 @@ ul {
   align-items: center;
   margin-top: 1vh;
   border-radius: 3px;
-  height: 4vh;
+  height: 5vh;
   width: 20vw;
 }
 
@@ -199,7 +199,7 @@ ul {
   background-color: transparent;
   border: hidden;
   color: var(--cor-primaria);
-  height: 4vh;
+  height: 5vh;
   width: 15vw;
 }
 
