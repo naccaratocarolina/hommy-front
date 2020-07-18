@@ -286,6 +286,10 @@ ul {
   height: 70px;
 }
 
+.sexta img {
+  width: 2vw;
+}
+
 .footer .coluna {
   position: relative;
   background-color: inherit;
