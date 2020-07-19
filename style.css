@@ -30,7 +30,7 @@ ul {
 
 .botao-tipo-1 {
   position: relative;
-  width: 15vw;
+  width: 20vw;
   height: 4vh;
 
   background-color: var(--cor-secundaria);
@@ -40,11 +40,19 @@ ul {
   font-weight: bold;
   border: hidden;
   margin: 0.8vh;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.botao-texto {
+  width: 60%;
 }
 
 .botao-tipo-2 {
   position: relative;
-  width: 15vw;
+  width: 20vw;
   height: 4vh;
 
   background-color: transparent;
@@ -56,20 +64,20 @@ ul {
   margin: 0.8vh;
 }
 
-.botao-tipo-2 .linha-botao {
+.linha-botao {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
 
-.botao-tipo-2 i {
-  font-size: 2em;
+.botao-tipo-1 i, .botao-tipo-2 i {
+  font-size: 2vw;
   margin-left: 1em;
   margin-right: 0.5em;
 }
 
-.botao-tipo-2 img {
+.botao-tipo-2 img, .botao-tipo-1 img {
   font-size: 2em;
   margin-left: 0.8em;
   margin-right: 0.3em;
@@ -78,6 +86,7 @@ ul {
 /* Header */
 .header {
   position: relative;
+  background-color: var(--cor-terciaria);
 }
 
 .header img {
@@ -91,8 +100,11 @@ ul {
   align-items: center;
   flex-direction: row-reverse;
   height: 10vh;
-  background-color: var(--cor-terciaria);
   color: var(--cor-primaria);
+
+  background-image: url(assets/fundo_4.png);
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 .navbar .coluna {
@@ -235,12 +247,10 @@ ul {
 }
 
 .funcao h2 {
-  font-size: 1.8em;
+  position: relative;
+  display: block;
+  font-size: 2vw;
   margin-bottom: 4%;
-}
-
-.funcao p {
-  font-size: 1.3em;
 }
 
 .funcao:hover {
