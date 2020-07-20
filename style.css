@@ -323,7 +323,7 @@ ul {
   display: flex;
   justify-content: space-around;
   position: relative;
-  height: 50vh;
+  height: 55vh;
   width: 100%;
   background-color: var(--cor-primaria);
 }
