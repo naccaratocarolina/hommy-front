@@ -157,19 +157,20 @@ ul {
 }
 
 .texto-1 {
-  font-size: 3em;
+  font-size: 5vh;
   font-weight: lighter;
 }
 
 .texto-2 {
-  font-size: 1.2em;
+  font-size: 2.5vh;
+  font-weight: normal;
 }
 
 .texto-3 {
   position: relative;
   margin-top: 1.5vh;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 2.5vh;
 }
 
 .texto-3 a {
@@ -183,10 +184,11 @@ ul {
 /* Secao_3 */
 .seçao-3 {
   position: relative;
-  width: 100%;
+  width: auto;
   background-color: var(--cor-primaria);
   color: var(--cor-terciaria);
   height: 50vh;
+  padding: 15vh;
 
   background-image: url(assets/fundo_1.png), url(assets/fundo_5.png);
   background-size: cover;
@@ -208,35 +210,33 @@ ul {
 .seçao-3 h3 {
   font-weight: lighter;
   font-size: 1.8vw;
+  padding-bottom: 2.5vh;
 }
 
-.titulo_3 {
-  top: 6vh;
+.seçao-3 text {
+  font-weight: normal;
+  font-size: 1.55vw;
+  padding-bottom: 1vh;
 }
 
-.seçao-3 h1:hover, .seçao-3 h3:hover, .seçao-3 i:hover {
+.descricao {
+  text-align: justify;
+}
+
+.seçao-3 h1:hover, h3:hover, text:hover, i:hover {
   color: var(--cor-secundaria);
 }
 
-.solucoes {
-  position: relative;
-  top: 6vh;
+.seçao-3 .solucoes {
   display: flex;
-  justify-content: space-between;
-  padding-left: 35vw;
-  padding-right: 35vw;
-  padding-top: 5vh;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .solucoes i {
   font-size: 3vw;
   padding-bottom: 2.5vh;
-
-}
-
-.solucoes .coluna {
-  display: flex;
-  flex-direction: column;
+  padding-top: 2.5vh;
 }
 
 /* Secao 4 */
@@ -312,6 +312,12 @@ ul {
   justify-content: center;
 }
 
+.container img {
+  height: auto;
+  width: 20vw;
+  margin-bottom: 3vh;
+}
+
 /* Secao 6 */
 .seçao-6 {
   display: flex;
@@ -325,21 +331,21 @@ ul {
 .seçao-6 h1 {
   color: var(--cor-terciaria);
   margin-bottom: 1.5vh;
-  font-size: 2.5em;
+  font-size: 4.8vh;
   font-weight: lighter;
 }
 
 .seçao-6 h2 {
   color: var(--cor-terciaria);
   margin-bottom: 1.5vh;
-  font-size: 1.5em;
+  font-size: 3vh;
   font-weight: lighter;
 }
 
 .seçao-6 h3 {
   color: var(--cor-terciaria);
   margin-bottom: 1vh;
-  font-size: 1.2em;
+  font-size: 2.5vh;
   font-weight: lighter;
 }
 
