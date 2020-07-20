@@ -31,7 +31,7 @@ ul {
 .botao-tipo-1 {
   position: relative;
   width: 20vw;
-  height: 4vh;
+  height: auto;
 
   background-color: var(--cor-secundaria);
   border-radius: 30px;
@@ -53,7 +53,7 @@ ul {
 .botao-tipo-2 {
   position: relative;
   width: 20vw;
-  height: 4vh;
+  height: auto;
 
   background-color: transparent;
   border: 1px solid var(--cor-terciaria);
@@ -181,7 +181,7 @@ ul {
 }
 
 /* Secao_3 */
-.secao_3 {
+.seçao-3 {
   position: relative;
   width: 100%;
   background-color: var(--cor-primaria);
@@ -200,12 +200,12 @@ ul {
   align-content: center;
 }
 
-.secao_3 h1 {
+.seçao-3 h1 {
   font-weight: lighter;
   font-size: 3.4vw;
 }
 
-.secao_3 h3 {
+.seçao-3 h3 {
   font-weight: lighter;
   font-size: 1.8vw;
 }
@@ -214,7 +214,7 @@ ul {
   top: 6vh;
 }
 
-.secao_3 h1:hover, .secao_3 h3:hover, .secao_3 i:hover {
+.seçao-3 h1:hover, .seçao-3 h3:hover, .seçao-3 i:hover {
   color: var(--cor-secundaria);
 }
 
@@ -239,43 +239,6 @@ ul {
   flex-direction: column;
 }
 
-/* Secao 3 */
-.seçao-3 {
-  position: relative;
-  background-color: var(--cor-primaria);
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.seçao-3 h1 {
-  color: var(--cor-terciaria);
-  margin-bottom: 1.5vh;
-  font-size: 2.5em;
-  font-weight: lighter;
-}
-
-.barra-pesquisa {
-  background-color: var(--cor-terciaria);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 1vh;
-  border-radius: 3px;
-  height: 5vh;
-  width: 20vw;
-}
-
-.seçao-3 input {
-  background-color: transparent;
-  border: hidden;
-  color: var(--cor-primaria);
-  height: 5vh;
-  width: 15vw;
-}
-
 /* Secao 4 */
 .seçao-4 {
   background-color: var(--cor-terciaria);
@@ -297,12 +260,14 @@ ul {
 .seçao-4 img {
   position: relative;
   bottom: -35px;
+  height: auto;
+  width: 30vw;
 }
 
 .funcao {
   border: 0.8px solid var(--cor-primaria);
   border-radius: 3px;
-  height: 15vh;
+  height: auto;
   margin: 4%;
   padding: 2%;
 }
@@ -312,6 +277,11 @@ ul {
   display: block;
   font-size: 2vw;
   margin-bottom: 4%;
+}
+
+.funcao h4 {
+  font-size: 1vw;
+  font-weight: normal;
 }
 
 .funcao:hover {
