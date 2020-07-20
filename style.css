@@ -72,9 +72,11 @@ ul {
 }
 
 .botao-tipo-1 i, .botao-tipo-2 i {
-  font-size: 2vw;
+  font-size: 1.7vw;
   margin-left: 1em;
   margin-right: 0.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 .botao-tipo-2 img, .botao-tipo-1 img {
@@ -161,6 +163,14 @@ ul {
   font-weight: lighter;
 }
 
+.texto-1 i {
+  font-size: 4vh;
+}
+
+.texto-1 i:hover {
+  color: var(--cor-secundaria);
+}
+
 .texto-2 {
   font-size: 2.5vh;
   font-weight: normal;
@@ -223,7 +233,7 @@ ul {
   text-align: justify;
 }
 
-.seçao-3 h1:hover, h3:hover, text:hover, i:hover {
+.seçao-3 i:hover {
   color: var(--cor-secundaria);
 }
 
